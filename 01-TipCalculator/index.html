@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <form>
+            <label for="price">Price</label>
+            <input type="number" min="1" id="price" name="price" required>
+
+            <label for="tipPercent">Tip %</label>
+            <input type="number" min="1" id="tipPercent" name="tipPercent" required>
+
+            <label for="numberOfPeople">Number of People</label>
+            <input type="number" min="1" id="numberOfPeople" name="numberOfPeople" required>
+
+            <button id="calculate">Calculate</button>
+        </form>
+
+        <div id="result">
+            <p>Tip: $<span id="tip"></span></p>
+            <p>Total Amount: $<span id="totalAmount"></span></p>
+            <p>Tip Per Person: $<span id="tipPerPerson"></span></p>
+            <p>Total Per Person: $<span id="totalPerPerson"></span></p>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
