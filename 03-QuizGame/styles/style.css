@@ -1,0 +1,40 @@
+body{
+    background-color: #92529C;
+    font-size: 20px;
+}
+
+.main{
+    width: 1080px;
+    margin: 100px auto 0 auto;
+    text-align: center
+}
+
+.answers{
+    width: 365px;
+    margin: 0 auto;
+}
+
+#question{
+    background-color: #0075A1;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    width: 365px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.answers button{
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #00B3FE;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 365px;
+}
+
+.answers button:disabled{
+    background-color: #A484AD;
+}

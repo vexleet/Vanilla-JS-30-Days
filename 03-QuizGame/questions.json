@@ -1,0 +1,78 @@
+[
+    {
+        "question": "Which one is not an object oriented programming language?",
+        "firstAnswer": {
+            "value": "Java",
+            "isTrue": false
+        },
+        "secondAnswer": {
+            "value": "C#",
+            "isTrue": false
+        },
+        "thirdAnswer": {
+            "value": "C",
+            "isTrue": true
+        },
+        "fourthAnswer": {
+            "value": "Python",
+            "isTrue": false
+        }
+    },
+    {
+        "question": "What does HTML stand for?",
+        "firstAnswer": {
+            "value": "Hyper Trainer Marking Language",
+            "isTrue": false
+        },
+        "secondAnswer": {
+            "value": "Hyper Text Markup Language",
+            "isTrue": true
+        },
+        "thirdAnswer": {
+            "value": "Hyper Text Marketing Language",
+            "isTrue": false
+        },
+        "fourthAnswer": {
+            "value": "Hyper Text Markup Leveler",
+            "isTrue": false
+        }
+    },
+    {
+        "question": "Which of the following is the correct way of making a string in Java?",
+        "firstAnswer": {
+            "value": "String \"Text\";",
+            "isTrue": false
+        },
+        "secondAnswer": {
+            "value": "String text = 'text';",
+            "isTrue": false
+        },
+        "thirdAnswer": {
+            "value": "String text = \"text\"",
+            "isTrue": false
+        },
+        "fourthAnswer": {
+            "value": "String text = \"text\";",
+            "isTrue": true
+        }
+    },
+    {
+        "question": "Which of the following is the correct way to use the standard namespace in C++?",
+        "firstAnswer": {
+            "value": "Using namespace std;",
+            "isTrue": true
+        },
+        "secondAnswer": {
+            "value": "Using namespace standard;",
+            "isTrue": false
+        },
+        "thirdAnswer": {
+            "value": "Using standard namespace;",
+            "isTrue": false
+        },
+        "fourthAnswer": {
+            "value": "Standard namespace used;",
+            "isTrue": false
+        }
+    }
+]
