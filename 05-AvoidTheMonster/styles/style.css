@@ -1,0 +1,21 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em;
+    width: 88%;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.door{
+    background: url(../images/door.svg) no-repeat;
+    width: 100px;
+    height: 150px;
+    background-size: cover;
+    flex: 1 0 20%;
+    margin: 5px;
+    flex-grow: 1;
+}
